@@ -1,0 +1,35 @@
+:root {
+    --main-font-family: monospace, monospace;
+    --main-font-size: 1em;
+    --line-height: 1.15;
+  }
+  
+  html {
+    line-height: var(--line-height); /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  
+  pre {
+    font-family: var(--main-font-family); /* 1 */
+    font-size: var(--main-font-size); /* 2 */
+  }
+  
+  code,
+  kbd,
+  samp {
+    font-family: var(--main-font-family); /* 1 */
+    font-size: var(--main-font-size); /* 2 */
+  }
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: var(--line-height); /* 1 */
+    margin: 0; /* 2 */
+  }
+  
